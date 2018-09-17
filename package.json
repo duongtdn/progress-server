@@ -1,0 +1,32 @@
+{
+  "name": "progress-server",
+  "version": "1.0.0",
+  "description": "server provides api for manage user study progression",
+  "main": "index.js",
+  "scripts": {
+    "local": "node example/server.local.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duongtdn/progress-server.git"
+  },
+  "author": "duongtdn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duongtdn/progress-server/issues"
+  },
+  "homepage": "https://github.com/duongtdn/progress-server#readme",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "express-api-binder": "^1.0.0",
+    "@stormgle/jtoken-util": "^1.0.0"
+  },
+  "devDependencies": {
+    "database-abstractor": "^1.0.0",
+    "database-test-helper": "^1.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "progressdb-dynamodb-driver": "^1.0.0",
+    "progressdb-test-helper": "^1.0.0"
+  }
+}
