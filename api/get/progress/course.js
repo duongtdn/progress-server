@@ -29,7 +29,7 @@ function getUserProgressForCourse (db) {
             return
           }
           if (data === null) {
-            data = {}
+            data = { progress: {} }
           } 
           res.status(200).json({ data });     
         }
