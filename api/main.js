@@ -3,8 +3,8 @@
 const api = require('express-api-binder')
 
 const funcs = [
-  'get/progress/:course',
-  'post/progress/:course',
+  'get/course/:course',
+  'post/course/:course',
 ]
 
 funcs.forEach(func => {

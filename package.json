@@ -1,6 +1,6 @@
 {
   "name": "@sglearn/progress-server",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "server provides api for manage user study progression",
   "main": "api/main.js",
   "scripts": {
